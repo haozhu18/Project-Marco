@@ -1,6 +1,6 @@
 from rq import Queue
-from oursite.worker.connection import conn
-from oursite.pages.views import home_view
+from worker.connection import conn
+from pages.views import home_view
 from django.core.management.base import BaseCommand
 
 

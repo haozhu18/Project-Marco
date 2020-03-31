@@ -1,6 +1,6 @@
 from rq import Worker, Queue, Connection
 from django.core.management.base import BaseCommand
-from oursite.worker.connection import conn, listen
+from worker.connection import conn, listen
 
 
 class Command(BaseCommand):

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'question',
     'pages',
+    'worker',
     'widget_tweaks',
 ]
 
@@ -78,12 +79,7 @@ WSGI_APPLICATION = 'oursite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+DATABASES = {'default': dj_database_url.config(default='postgres://sgszmftxizfdut:a54a4902443b0091836773377fceb5561e43a4494a45b1babec3cddd992f9efc@ec2-3-229-210-93.compute-1.amazonaws.com:5432/d2p91s5s1pnv6m')}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
