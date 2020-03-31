@@ -5,8 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.tree import export_graphviz
-from sklearn.externals.six import StringIO  
-from IPython.display import Image  
+from sklearn.externals.six import StringIO
 from scipy import sparse
 
 
