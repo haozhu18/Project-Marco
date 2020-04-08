@@ -1,6 +1,9 @@
 # Project Marco    
 Authors: Abhimanyu Choudhary, Ezra Max, Hao Zhu, Shiyu Tian      
 
+Use the program by visiting this site: https://project-marco.herokuapp.com/     
+Or run it locally by following the instructions specified below.
+
 Please use a markdown reader to read this document, your experience will be greatly enhanced by it. To do so on this VM, navigate to the project directory
 and use the command
 
